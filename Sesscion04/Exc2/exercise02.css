@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+background-color: black;
+color: white;
+text-align: center;
+/* Đây là khoảng cách giữa chữ và khung */
+padding: 30px;
+
+}
+p {
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #303030;
+}

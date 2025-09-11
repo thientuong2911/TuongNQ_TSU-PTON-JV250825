@@ -1,0 +1,28 @@
+* {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    background-color: lavender;
+    color: black;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    
+}
+button:hover {
+    color: white;
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 350px;
+}
+
+textarea {
+    width: 350px;
+}
+
+button {
+    width: 350px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}

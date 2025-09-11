@@ -1,0 +1,14 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: orange;
+}
+#p1 {
+    color: blue;
+}
+#p2 {
+    color: red;
+}
