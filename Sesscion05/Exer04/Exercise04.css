@@ -1,0 +1,14 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+div:hover {
+  transform: rotate(45deg);
+}

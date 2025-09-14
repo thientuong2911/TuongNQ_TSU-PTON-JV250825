@@ -1,0 +1,12 @@
+* {
+    margin: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+button {
+border-top: 2px solid red;
+border-left: 5px groove purple;
+border-bottom: 5px double green;
+border-right: 4px dotted blue ;
+}

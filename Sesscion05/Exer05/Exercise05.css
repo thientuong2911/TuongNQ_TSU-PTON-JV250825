@@ -1,0 +1,104 @@
+* {
+   margin: 10px;
+}
+
+#fade-in {
+    background-color: rgb(180, 180, 180);
+    color: rgba(255,255,250, 0.7);
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: background-color 1s ease;
+   
+}
+#fade-in:hover {
+    background-color: gray;
+   
+}
+#change-color {
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#change-color:hover {
+    background-color: blue;
+}
+
+#grow {
+    background-color: gray;
+    color: white;
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 10px solid rgb(255, 255, 255);
+    transition: border-color ease-in;
+
+}
+#grow:hover {
+    border: 10px solid gray;
+}
+
+#shrink {
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: background-color 1s ease-in;
+}
+#shrink:hover {
+    transform: scale(0.8);
+}
+
+#rotate {
+     background-color: gray;
+    color: white;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: 0.5s ease-in;
+
+}
+#rotate:hover {
+    transform: rotate(-30deg);
+}
+#Square-circle {
+     background-color: gray;
+    color: white;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: 0.5s ease-in;
+}
+#Square-circle:hover {
+    border-radius: 50%;
+}
+#insert-border {
+    background-color: gray;
+    color: white;
+    border: 10px solid gray;
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: 0.5s ease-in;
+}
+#insert-border:hover {
+    border-color:blue;
+}
