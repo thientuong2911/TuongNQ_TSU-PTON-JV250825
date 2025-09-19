@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50px;
+    background-color: rgb(57, 93, 211);
+    color: white;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: calc(100vh - 120px);
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #2da72d;
+    color: white;
+}
+
+.content {
+    /* width: 75%; */
+    flex: 1;
+    background-color: #eb3434;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    background-color: purple;
+    margin-top: 10px;
+    color: white;
+}
