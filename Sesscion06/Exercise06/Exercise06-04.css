@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 1px solid #E1E1E1;
+}
+
+.content01 {
+    padding: 20px;
+    border: 1px solid #E1E1E1;
+    background-color: #E7F1FF;
+    color: blue;
+    position: relative;
+}
+.up-icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.content02  {
+    padding: 20px;
+    border: 1px solid #E1E1E1;
+    position: relative;
+}
+.content02 .down-icon{
+     position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.content03  {
+    padding: 20px;
+    border: 1px solid #E1E1E1;
+    position: relative;
+}
+.content03 .down-icon{
+     position: absolute;
+    right: 20px;
+    top: 20px;
+}
+

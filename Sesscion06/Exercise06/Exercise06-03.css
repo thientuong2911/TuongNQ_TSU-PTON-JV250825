@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    position: relative;
+}
+
+.container aside {
+    margin: 20px 10px;
+}
+.container .container-content{
+position: absolute;
+top: 25px;
+left: 320px;
+}
+.container-content ul{
+    color: darkgrey;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.container-content a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.container-content div{
+    margin: 10px 0px;
+}
+#icon-eyes{
+    margin-left: 20px;
+}

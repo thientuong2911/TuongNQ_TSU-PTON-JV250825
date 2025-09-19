@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color: azure;
+    display: block;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+button {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 170px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

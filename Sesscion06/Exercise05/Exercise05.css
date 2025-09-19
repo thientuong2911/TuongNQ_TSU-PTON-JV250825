@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px;
+    height: 60px;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav .mylogo {
+    position: absolute;
+    left: 10px;
+}
+nav .mypage{
+    position: absolute;
+    right: 20px;
+}
+main .content01{
+    background-color: #F4F4F4;
+    padding: 100px;
+    text-align: center;
+}
+.content01 p{
+    font-size: 10px;
+    margin: 10px;
+}
+.getstarts a{
+    font-size: 12px;
+    background-color: #4CAF50;
+    text-decoration: none;
+    padding: 5px;
+   border-radius: 5px;
+}
+.content02 ul{
+      margin: 10px;
+}
+ul .project{
+    background-color: #DDDDDD;
+    color: black;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
