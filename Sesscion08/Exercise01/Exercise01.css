@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: calc(50% - 10px);
+    background-color: #ADD8E6;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.fullwidth{
+    width: calc(100% - 10px);
+}
+@media screen and (max-width: 768px) {
+    .flex-item{
+        width: calc(100% - 10px);
+    }
+}
