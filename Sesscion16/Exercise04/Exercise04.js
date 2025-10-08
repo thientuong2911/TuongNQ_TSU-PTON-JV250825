@@ -3,4 +3,5 @@ function isEven (randomNumber){
 }
 let randomNumber = +prompt("Mời bạn nhập số ngẫu nhiên cần kiểm tra");
 let result = isEven(randomNumber);
-console.log(`Kết quả kiểm tra là ${result}`);
+
+alert(`Kết quả kiểm tra là ${result}`);
